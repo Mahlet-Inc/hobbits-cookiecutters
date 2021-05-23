@@ -1,0 +1,4 @@
+{
+    "name" : "Py Operator",
+    "slug" : "{{ cookiecutter.name|lower|replace(' ', '-') }}"
+}

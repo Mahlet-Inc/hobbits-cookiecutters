@@ -1,0 +1,19 @@
+{
+    "name": "{{cookiecutter.name}}",
+    "description": "TODO: describe plugin",
+    "tags": ["python"],
+    "script": "{{cookiecutter.slug}}.py",
+    "type": "display",
+    "render_config": {
+        "asynchronous": true,
+        "hide_bit_offset_controls": false,
+        "hide_frame_offset_controls": false
+    },
+    "extra_paths": [],
+    "parameters": [
+        {
+            "name": "my_string",
+            "type": "string"
+        }
+    ]
+}

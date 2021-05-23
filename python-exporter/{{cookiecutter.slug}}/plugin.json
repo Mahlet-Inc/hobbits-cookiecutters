@@ -1,0 +1,14 @@
+{
+    "name": "{{cookiecutter.name}}",
+    "description": "TODO: describe plugin",
+    "tags": ["python"],
+    "script": "{{cookiecutter.slug}}.py",
+    "type": "exporter",
+    "extra_paths": [],
+    "parameters": [
+        {
+            "name": "my_string",
+            "type": "string"
+        }
+    ]
+}

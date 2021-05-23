@@ -1,0 +1,4 @@
+{
+    "name" : "Py Display",
+    "slug" : "{{ cookiecutter.name|lower|replace(' ', '-') }}"
+}

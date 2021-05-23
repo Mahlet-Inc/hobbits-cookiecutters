@@ -1,0 +1,4 @@
+{
+    "name" : "Py Importer",
+    "slug" : "{{ cookiecutter.name|lower|replace(' ', '-') }}"
+}
