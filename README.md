@@ -3,7 +3,7 @@
 This collection of cookiecutters simplifies the process of building plugins for
 [Hobbits](https://github.com/Mahlet-Inc/hobbits). Cookiecutters are templates
 that are meant to be used with the tool 
-[Cookiecutter](https://cookiecutter.readthedocs.io/en/stable/README.html)).
+[Cookiecutter](https://cookiecutter.readthedocs.io/en/stable/README.html).
 
 
 ## Using Python Plugin Cookiecutters
