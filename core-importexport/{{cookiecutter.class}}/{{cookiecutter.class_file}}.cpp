@@ -77,7 +77,7 @@ QSharedPointer<ParameterDelegate>  {{cookiecutter.class}}::exportParameterDelega
     return m_exportDelegate;
 }
 
-QSharedPointer<ImportResult> {{cookiecutter.class}}::importBits(Parameters parameters,
+QSharedPointer<ImportResult> {{cookiecutter.class}}::importBits(const Parameters &parameters,
                                                       QSharedPointer<PluginActionProgress> progress)
 {
     QStringList invalidations = m_importDelegate->validate(parameters);
@@ -89,7 +89,7 @@ QSharedPointer<ImportResult> {{cookiecutter.class}}::importBits(Parameters param
 }
 
 QSharedPointer<ExportResult> {{cookiecutter.class}}::exportBits(QSharedPointer<const BitContainer> container,
-                                                      Parameters parameters,
+                                                      const Parameters &parameters,
                                                       QSharedPointer<PluginActionProgress> progress)
 {
     QStringList invalidations = m_exportDelegate->validate(parameters);

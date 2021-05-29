@@ -32,7 +32,7 @@ QString {{cookiecutter.export_editor}}::title()
     return "Configure {{cookiecutter.class}}";
 }
 
-Parameter {{cookiecutter.export_editor}}::parameters()
+Parameters {{cookiecutter.export_editor}}::parameters()
 {
     return m_paramHelper->getParametersFromUi();
 }
